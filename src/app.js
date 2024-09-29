@@ -8,6 +8,10 @@ app.use("/test", (req,res) => {
     res.send("Hello World test")
 });
 
+app.use("/test2", (req,res) => {
+    res.send("Hello World test2")
+});
+
 app.use("/", (req,res) => {
     res.send("Hello World")
 });

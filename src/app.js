@@ -12,6 +12,10 @@ app.use("/test2", (req,res) => {
     res.send("Hello World test2")
 });
 
+app.use("/test3", (req,res) => {
+    res.send("Hello World test3")
+});
+
 app.use("/", (req,res) => {
     res.send("Hello World")
 });

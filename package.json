@@ -9,7 +9,11 @@
   "author": "Raj",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "express": "^4.21.0",
-    "nodemon": "^3.1.7"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7",
+    "validator": "^13.12.0"
   }
 }
